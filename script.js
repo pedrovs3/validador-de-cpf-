@@ -54,7 +54,7 @@ ValidaCpf.prototype.isSequencia = function () {
   return this.cpfLimpo[0].repeat(this.cpfLimpo.length) === this.cpfLimpo;
 };
 
-const cpf = new ValidaCpf("956.545.280-92");
+const cpf = new ValidaCpf("956.545.280-92"); // CPF válido utilizado para testes
 
 if (cpf.valida()) {
   console.log("CPF válido");
